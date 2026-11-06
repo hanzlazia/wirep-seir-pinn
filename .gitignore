@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+results/_locks/
+results/_old_*/
+results/*.tmp
+*.tmp
+# local-only / bulky: raw per-run results are published as a release asset
+results/_*
+results/_worker*
+results/E0_legacy/
+results/E1_main/
+results/E2_noise/
+results/E3_arch/
+results/E4_inverse/
+results/E5_real/
+*.log
+monitor.ps1
+RECOVERY.md
+.pytest_cache/

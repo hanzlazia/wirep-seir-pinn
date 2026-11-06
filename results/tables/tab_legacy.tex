@@ -1,0 +1,17 @@
+\begin{tabular}{llcccccc}
+\toprule
+ & & \multicolumn{3}{c}{Original L-BFGS gradient} & \multicolumn{3}{c}{Corrected gradient} \\
+\cmidrule(lr){3-5}\cmidrule(lr){6-8}
+Disease & Activation & Rel.\ $L_2$ & Peak err.\ (\%) & L-BFGS evals & Rel.\ $L_2$ & Peak err.\ (\%) & L-BFGS evals \\
+\midrule
+Hantavirus & MV-Morlet & $1.35\times10^{-3}$ & 0.103 & 1080 & $7.10\times10^{-4}$ & 0.0350 & 3614 \\
+Hantavirus & WIRE-P & $5.16\times10^{-4}$ & 0.0242 & 1655 & $4.69\times10^{-4}$ & $9.94\times10^{-3}$ & 3751 \\
+Hantavirus & Tanh & $1.06\times10^{-3}$ & 0.0529 & 2502 & $8.16\times10^{-4}$ & 0.0351 & 3674 \\
+SARS-2003 & MV-Morlet & $7.33\times10^{-3}$ & 0.405 & 238 & $1.51\times10^{-3}$ & 0.0290 & 3642 \\
+SARS-2003 & WIRE-P & $2.63\times10^{-3}$ & 0.0325 & 703 & $1.87\times10^{-3}$ & 0.0172 & 3750 \\
+SARS-2003 & Tanh & 0.0390 & 1.71 & 119 & $1.55\times10^{-3}$ & 0.0323 & 3456 \\
+COVID-19 & MV-Morlet & 0.0170 & 0.565 & 66 & $2.59\times10^{-3}$ & 0.0135 & 3623 \\
+COVID-19 & WIRE-P & $5.01\times10^{-3}$ & 0.0270 & 239 & $1.52\times10^{-3}$ & $7.24\times10^{-3}$ & 3751 \\
+COVID-19 & Tanh & 0.0230 & 0.525 & 57 & $4.05\times10^{-3}$ & 0.0159 & 3742 \\
+\bottomrule
+\end{tabular}
